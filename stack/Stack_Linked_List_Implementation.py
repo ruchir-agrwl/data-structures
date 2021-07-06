@@ -6,7 +6,7 @@ class Node:
         self.next = None
 
     def has_next(self):
-        return self.next != None
+        return self.next is not None
 
 
 class Stack:
